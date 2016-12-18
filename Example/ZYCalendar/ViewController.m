@@ -26,7 +26,7 @@
     
     //base usage 
     self.view.backgroundColor = [UIColor colorWithRed:24/255.0 green:49/255.0 blue:85/255.0 alpha:1];
-    _calendar = [[ZYCalendar alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height * 0.58) style:ZYCalendarStyleVerticalGroup];
+    _calendar = [[ZYCalendar alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height * 0.5) style:ZYCalendarStyleVerticalGroup];
     
     _calendar.leftPadding = 0;
     _calendar.rightPadding = 0;
